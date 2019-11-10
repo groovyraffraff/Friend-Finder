@@ -8,14 +8,14 @@ var path = require("path");
 
 module.exports = function(app) {
 
-//Route to the survey
+//route to survey
     app.get('/survey', function(req, res){
         res.sendFile(path.join(__dirname, '../public/survey.html'));
 
     });
 
-//If no matching route is found default route to home page
+//no matching route is found then route back to home page
     app.get("*", function(req, res){
-            res.sendFile(path.join(__dirname, '../public/home.html'));
+            res.sendFile(path.join(__dirname, '../public/home.html'))
         });
 }
