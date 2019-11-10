@@ -1,3 +1,6 @@
 .modal-content {
-    background-color: skyblue;
+    background-color: skyblue !important;
+}
+.body {
+    background-color: black !important;
 }
