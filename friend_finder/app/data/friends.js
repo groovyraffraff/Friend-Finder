@@ -1,5 +1,4 @@
-// Application's DATA
-//Current Friend data for application saved as an array of objects. 
+//Current data for application saved as an array of objects
 
 var friendsArray = [
         {
