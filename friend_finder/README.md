@@ -1,7 +1,7 @@
-# Friend Finder App Project
+# Friender Bender
 
 ##What is the Friend Finder?
-The Friend Finder is a compatibility based app. 
+The Friend Finder is a compatibility based app. I decided to make it Avatar themed just for giggles.
 
 It will ask you question and then match you with other users based on your answers. You will then see the name and picture with the user that you best match with.
 
